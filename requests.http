@@ -1,0 +1,14 @@
+GET http://localhost:8080/hugo
+Accept: application/json
+x-name: Hugo
+
+###
+
+
+GET http://localhost:8080/other
+Accept: application/json
+x-name: Bugo
+
+###
+
+
