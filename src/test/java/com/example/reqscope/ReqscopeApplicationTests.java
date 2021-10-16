@@ -1,13 +1,13 @@
 package com.example.reqscope;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReqscopeApplicationTests {
+public class ReqscopeApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    public void contextLoads() {
+    }
 
 }

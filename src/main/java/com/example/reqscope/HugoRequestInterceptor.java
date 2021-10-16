@@ -2,14 +2,14 @@ package com.example.reqscope;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Component
 @AllArgsConstructor
-public class HugoRequestInterceptor implements HandlerInterceptor {
+public class HugoRequestInterceptor extends HandlerInterceptorAdapter {
 
     private static String HUGO_NAME_HEADER = "X-NAME";
 
